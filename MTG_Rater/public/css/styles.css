@@ -1,0 +1,128 @@
+ /*Homepage*/
+ .home-image{
+    width: 300px;  
+    height: 400px;
+    opacity: 0.7;
+
+  }
+ 
+ .images-div{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+ 
+ 
+
+    /*Card Show Page*/
+ .page-title{
+     margin: 1.5rm 0 1 rem 0 
+ }
+
+ .container{
+     display: flex;
+
+     /* width: 100%;
+     height:100%; */
+
+     flex-wrap: wrap;
+     justify-content: space-around;
+     /* border-top: 1px solid black; */
+     padding-top: 1.5rem;
+ }
+
+ 
+ .card {
+     border: 1px solid grey;
+     border-radius: 1rem;
+     width: 30%;
+     /* margin: 1rem 1.6%; */
+     /* padding: 0; */
+     text-align: center;
+ }
+
+ .card-img {
+ 
+     /* max-width:100%;
+     max-height:100%;     */
+     /* width: 10rem;
+     height: 20rem; */
+     margin: 0 auto;
+     object-fit: cover;
+     border-radius: 1rem 1rem 0 1rem;   
+     /* text-align: center; */
+ }
+
+ .card-name {
+     text-align: center;
+     margin: 0.5rem;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 400;
+     font-size: 1.8rem;
+ }
+
+ .card-text{
+      font-family: 'Courier New', Courier, monospace;
+     line-height: 1.4;
+     text-align: left;
+ }
+ 
+ 
+ nav{
+      border-bottom: 1px solid black; 
+
+ }
+
+
+ /* cards_show */
+ .show_image-container{
+    width:100%;
+    height:100%;
+ }
+ .show_image-container img{
+    width:100%;
+    height:100%;
+ }  
+
+ .show_details-container h1{
+     padding-bottom: 40px;
+ }
+
+ .show_comment-header {
+     font-size: large;
+     width: 100%;
+  }
+  
+  .show_comment-container{
+      width: 100%;
+     
+    }
+
+.btn-primary {
+    width: 100%;
+ }
+
+ .table-bordered{
+     margin: 0% !important;
+     margin-bottom: 1rem !important;
+     margin-top: 1rem !important;
+
+ }
+
+ .tdRight{
+     text-align: right;
+ }
+ 
+ /* Navbar */
+ .alignRight{
+    float: right;
+    text-align: center
+     }
+
+ .containerMessage{
+     display: flex;
+     flex-direction: column;
+    }

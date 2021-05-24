@@ -1,0 +1,56 @@
+<%- include("partials/header") %>
+    <h1 class = "page-title">Card Page</h1>
+ 
+
+    <div class = "container">
+        <div class = "row">
+
+          <% cards.forEach((card) => { %>
+            
+            <div class = "card m-3" style="width: 24rem;">
+
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <td colspan="8"><%= card.name%></td>
+                    <td colspan="4"><%= card.cmc%></td>
+                   </tr>
+              </thead>
+              </table>
+
+
+                <!--<h3 class = "card-name mb-2"> <%= card.name %> </h3> -->
+                <a href = "/cards/<%= card.id %>">
+                <img class = "card-img card-img-top " src="<%= card.image %>" alt = "Picture of the card">
+                </a>
+                <!-- <p class = "card-text mb-3 mx-2 mt-2"> <%= card.description %> </p> -->
+               
+                <table class="table table-bordered">
+                
+                    <tr>
+                       <td> <%= card.cardType%></td>
+                       <td> <%= card.subTypes%></td>
+                    </tr>
+                    <% if (  card.keywords.length > 0) { %>
+                      <tr>
+                       <td colspan= 3> <%= card.keywords %> <br> <%= card.description %></td>
+                    </tr>
+                    <% } else { %>
+                      <tr>
+                        <td colspan= 3>  <%= card.description %></td>
+                     </tr>
+                   <%  } %>
+                    <tr>
+                      <td colspan = 2 class="tdRight"><%= card.attack%> / <%= card.health%></td>
+                      </tr>
+                </table>
+
+              </div>
+            
+          <% }); %>
+
+         </div>
+    </div>
+     
+ 
+<%- include("partials/footer") %>

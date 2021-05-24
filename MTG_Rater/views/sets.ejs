@@ -1,0 +1,23 @@
+<%- include("partials/header") %>
+
+<h1 class = "page-title">Kaldheim Card Page</h1>
+
+<div class = "container">
+    <div class = "row">
+
+      <% cards.forEach((card) => { %>
+        
+        <div class = "card m-3" style="width: 18rem;">
+       
+            <a href = "/sets/view/<%= card.id %>">
+            <img class = "card-img card-img-top " src="<%= card.image %>" alt = "Picture of the card">
+            </a>
+
+          </div>
+        
+      <% }); %>
+
+     </div>
+</div>
+
+<%- include("partials/footer") %>

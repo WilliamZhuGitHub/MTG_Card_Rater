@@ -1,0 +1,65 @@
+<%- include("../partials/header") %>
+ 
+     <div class="container">
+        <form action = "/cards" method = "POST" >
+            <h1>Submit Planeswalker Card</h1>
+            <br>
+            <!-- Top Row -->
+            <div class = "row">
+             <div class="col-md-6 ">
+                <label for= "name" class="form-label ">Card Name</label>
+                <input type="text"  class="form-control" id="inputdefault" name ="name" required autofocus>
+             </div>
+             
+             <div class = "col-md-6">
+                <label for="cmc" class="form-label">CMC</label>
+                <input type="text" class="form-control" required name ="cmc">
+             </div>
+            </div>
+
+            <div class="form-group">
+                <label for="image" class="form-label">Image Link</label>
+                <input type="text" class="form-control" required name ="image" >
+             </div>
+
+             
+            <!-- 2nd Row -->
+            <div class = "row">
+             <div class = "col-md-6">
+                <label for="cardType" class="form-label">Card Type</label>
+                <input type="text" class="form-control" required value = "Legendary Planeswalker" name ="cardType">
+             </div>
+
+             <div class = "col-md-6">
+                <label for="subTypes" class="form-label">Sub Types</label>
+                <input type="text" class="form-control"  name ="subTypes">
+             </div>
+            </div>
+
+      
+
+             <div class="form-group">
+                <label for="description" class="form-label">Description</label>
+                <input type="text" class="form-control" required name ="description">
+             </div>
+
+             <!-- 3rd Row -->
+      
+             
+             <div class = "col-md-12">
+                <label for="loyalty" class="form-label">Loyalty</label>
+                <input type="text" class="form-control" required name ="loyalty">
+             </div>
+ 
+
+           
+
+            
+             <br>
+             <br>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <%- include ("../partials/footer") %> 

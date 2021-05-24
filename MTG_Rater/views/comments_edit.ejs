@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+
+<div class = "container">
+     <form action = "/cards/<%=card._id%>/comments/<%=comment._id%>?_method=PUT" method = "POST">
+        <h1> Add New Comment  </h1>
+
+        <div class = form-group">
+            <label for "text">Comment Text</label>
+            <textarea class = "form-control" name = "text" id = "text" rows = "8" cols = "80" required><%=comment.text%></textarea>
+        </div>
+        <br>
+
+        <button type = "submit" class = "btn btn-primary"> 
+            Submit Comment
+        </button>
+    </form>
+</div>
+
+<%- include("partials/footer") %>
