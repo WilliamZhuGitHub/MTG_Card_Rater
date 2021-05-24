@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//card object
 const cardSchema = new mongoose.Schema({ 
     name: String,
     cmc: String,
