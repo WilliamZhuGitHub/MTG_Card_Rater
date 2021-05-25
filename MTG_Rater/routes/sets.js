@@ -6,8 +6,7 @@ const Comment = require('../models/comment');
 
 const fetch = require('node-fetch');
 
-//seed the cards into the database(DO NOT RUN EVERY TIME)
- 
+  
 //view card
 router.get("/view/:id", async (req,res) => {
     try{
