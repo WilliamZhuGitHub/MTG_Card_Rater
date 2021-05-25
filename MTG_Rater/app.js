@@ -42,8 +42,6 @@ app.use(morgan('tiny'));
 //seed();
 
 
-//ONLY use when seedding new sets 
-
 //seed set
 // const seed_sets = require('./utils/seed_sets');
 // seed_sets();
