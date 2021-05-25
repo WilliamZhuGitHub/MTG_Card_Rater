@@ -41,6 +41,7 @@ app.use(morgan('tiny'));
 // const seed = require('./utils/seed');
 //seed();
 
+//Testing Seeds
 
 //seed set
 // const seed_sets = require('./utils/seed_sets');
