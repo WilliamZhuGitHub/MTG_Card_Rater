@@ -17,4 +17,5 @@
 ## Technology Used
 * Uses MongoDB with Mongoose for database storage, 
 * Express.js and Node.js to handle routes, requests, and views. 
+* Bootstrap for Front-End
 * Deployed on Heroku at https://mtg-card-rater.herokuapp.com/
