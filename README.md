@@ -12,7 +12,7 @@
 * Create an account to access card creation and commenting features
 * (All passwords are hashed and salted and authenticated using passport.js)
 * Viewing custom cards and standard sets do not require an account 
-* There is no current email verification system
+* There is currently no email verification system
 
 ## Technology Used
 * Uses MongoDB with Mongoose for database storage, 
