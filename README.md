@@ -1,1 +1,17 @@
 # MTG_Card_Rater
+
+## Description
+* Create your own custom Magic the Gathering cards. 
+* Users can rate and comment on other user created cards.
+* Includes a database of standard sets using scryfall's API. 
+* Includes search functionalities
+
+## How to use
+* Create an account to access card creation and commenting features
+* (All passwords are hashed and salted and authenticated using passport.js)
+* Viewing custom cards and standard sets do not require an account 
+* There is no current email verification system
+
+## Technology Used
+* Uses MongoDB with Mongoose for database storage, 
+* Express.js and Node.js to handle routes, requests, and views. 
