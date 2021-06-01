@@ -4,7 +4,7 @@
 * Create your own custom Magic the Gathering cards. 
 * Users can rate and comment on other user created cards.
 * Includes a database of standard sets using scryfall's API. 
-* Includes search functionalities
+* Includes search functionalities for user submitted cards and standard sets
 
 ![preview](https://user-images.githubusercontent.com/56366459/120350030-9abb1180-c2cc-11eb-85aa-0ac9b00b2659.JPG)
 
