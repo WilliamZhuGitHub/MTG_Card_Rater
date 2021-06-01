@@ -17,4 +17,4 @@
 ## Technology Used
 * Uses MongoDB with Mongoose for database storage, 
 * Express.js and Node.js to handle routes, requests, and views. 
-* Deployed using Heroku
+* Deployed on Heroku at https://mtg-card-rater.herokuapp.com/sets/stx
