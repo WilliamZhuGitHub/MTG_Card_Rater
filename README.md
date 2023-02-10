@@ -13,8 +13,7 @@
 * (All passwords are hashed and salted and authenticated using passport.js)
 * Viewing custom cards and standard sets do not require an account 
 * There is currently no email verification system
-* Website may take up to 30 seconds to load 
-
+ 
 ## Technology Used
 * Uses MongoDB with Mongoose for database storage, 
 * Express.js and Node.js to handle routes, requests, and views. 
